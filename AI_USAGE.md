@@ -1,7 +1,5 @@
 # AI Usage
 
-AI Usage
-
 1. Evaluation architecture
 
 AI was considered as the primary evaluator, but that approach was rejected for objective validation. Deterministic checks remain predictable; AI is used for qualitative reasoning.
@@ -32,4 +30,4 @@ Generated code was not accepted blindly.
 
 Unnecessary infrastructure complexity was avoided.
 
-AI is advisory, not a canonical answe
+AI is advisory, not a canonical answer.
