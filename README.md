@@ -29,7 +29,8 @@ Open http://localhost:5173
 If MongoDB is not running, the backend automatically uses in-memory storage. Restarting the server clears demo submissions.
 
 ## Optional AI
-Put `OPENAI_API_KEY` in `server/.env`. The AI is used only for qualitative design feedback. Objective validation remains deterministic.
+
+ `GROQ_API_KEY` in `server/.env`. The AI (via Groq) is used only for qualitative LLD design feedback, such as responsibilities, abstraction, coupling, cohesion, and extensibility. Objective validation remains deterministic, so the platform does not depend entirely on the AI evaluator.
 
 ## MVP decisions
 - Structured submission instead of a complex UML editor to keep the 2-day scope focused.
